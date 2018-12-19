@@ -9,7 +9,6 @@
 
     <artifactId>hero-common</artifactId>
     <packaging>jar</packaging>
-
     <name>hero-common</name>
     <url>http://maven.apache.org</url>
 
@@ -24,5 +23,40 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
+
+        <!--apache 工具 start-->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math3</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-compress</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+        </dependency>
+        <!--apache 工具 end-->
+
+        <!--google custom start-->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+        <!--google custom end-->
+
     </dependencies>
 </project>
